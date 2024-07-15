@@ -15,8 +15,8 @@ services:
       - key: DB_USER
         value: root
       - key: DB_PASSWORD
-        value: your-production-db-password
+        value:
       - key: DB_HOST
-        value: your-production-db-host
+        value: 127.0.0.1
       - key: JWT_SECRET
         value: myverylongandsecurejwtsecretkey
