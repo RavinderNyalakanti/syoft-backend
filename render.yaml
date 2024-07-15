@@ -17,6 +17,6 @@ services:
       - key: DB_PASSWORD
         value:
       - key: DB_HOST
-        value: 3306
+        value: localhost
       - key: JWT_SECRET
         value: myverylongandsecurejwtsecretkey
